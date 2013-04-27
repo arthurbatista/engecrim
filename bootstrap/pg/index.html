@@ -1,176 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Bootstrap, from Twitter</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<head>
+  <meta charset="utf-8">
+  <title>Bootstrap, from Twitter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <!-- Le styles -->
-    <link href="../assets/css/style.css" rel="stylesheet">
-    <style>
-      body {
-        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
-      }
-    </style>
-    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+  <!-- Le styles -->
+  <link href="../assets/css/style.css" rel="stylesheet">
+  <style>
+  body {
+    padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+  }
+  </style>
+  <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
 
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+      <![endif]-->
 
-    <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" href="../assets/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-    
-    <script type="text/javascript" src="../assets/js/jquery1.8.3.js"></script>
-    <script type="text/javascript" src="../assets/js/bootstrap.js"></script>
-    
-    
-    <script type="text/javascript">
-   		$(document).ready(function() {
-   			$('#tabNav a').click(function (e) {
-    			e.preventDefault();
-				$(this).tab('show');
-			})
-		});                             
- 	</script>
- 
-  </head>
+      <!-- Le fav and touch icons -->
+      <link rel="shortcut icon" href="../assets/ico/favicon.ico">
+      <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
 
-  <body>
-	
-	
-	
-	<div class="container main-container">
-    
-    <div class="masthead">
-        <ul id="tabNav" class="nav nav-pills pull-left">
-        	<li><a href="#tabHome" data-toggle="tab">INÍCIO</a></li>
-          	<li><a href="#tapEmpresa" data-toggle="tab">EMPRESA</a></li>
-            <li><a href="#tapAbout">CORPO TÉCNICO</a></li>
-          	<li><a href="#contact">SERVIÇOS</a></li>
-			<li><a href="#contact">INFORMAÇÕES ÚTEIS</a></li>
-			<li><a href="#contact">LINKS</a></li>
-			<li><a href="#contact">FALE CONOSCO</a></li>
-        </ul>
-    </div>
-    
-  	
-  	<div class="row">
-  	<div class="span12">
-    <div class="tab-content">
-		<div class="tab-pane active" id="tabHome">
-		
-			<div class="row">
-      			<div class="span4 offset4">
-      				<img class="img-logo" src="../assets/img/engecrim_logo.png">
-      			</div>
-    		</div>
+      <script type="text/javascript" src="../assets/js/jquery1.8.3.js"></script>
+      <script type="text/javascript" src="../assets/js/bootstrap.js"></script>
 
- 		<div class="row">
-          <div class="span3">
+
+      <script type="text/javascript">
+      $(document).ready(function() {
+        $('#tabNav a').click(function (e) {
+         e.preventDefault();
+         $(this).tab('show');
+       })
+      });                             
+      </script>
+
+    </head>
+
+    <body>
+
+
+
+     <div class="container main-container">
+
+      <div class="masthead">
+
+         <ul id="tabNav" class="nav nav-pills pull-right">
+           
+           <li><a href="#tapEmpresa" data-toggle="tab">EMPRESA</a></li>
+           <li><a href="#tapAbout">CORPO TÉCNICO</a></li>
+           <li><a href="#contact">SERVIÇOS</a></li>
+           <li><a href="#contact">INFORMAÇÕES ÚTEIS</a></li>
+           <li><a href="#contact">LINKS</a></li>
+           <li><a href="#contact">FALE CONOSCO</a></li>
+         </ul>
+        
+        <h3><a href="#tabHome" data-toggle="tab">ENGECRIM</a></h3>
+        
+     </div>
+
+
+     <div class="content-container row">
+       <div class="span11">
+        <div class="tab-content">
+          <div class="tab-pane active" id="tabHome">
+
+           <div class="row">
+             <div class="span4 offset3">
+              <img class="img-logo" src="../assets/img/engecrim_logo.png">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="span3">
               <img class="pull-left" src="http://bootswatch.com/img/glyphicons_023_cogwheels.png">
-			  <h4 class="title-service">Projeto e Consultoria</h4>
+              <h4 class="title-service">Projeto e Consultoria</h4>
               <p>The apple is the pomaceous fruit of the apple tree, species Malus domestica in the rose family.</p>
-          </div>
-          <div class="span3">
+            </div>
+            <div class="span3">
               <img class="pull-left" src="http://bootswatch.com/img/glyphicons_280_settings.png">
-			  <h4 class="title-service">Gerenciamento</h4>
+              <h4 class="title-service">Gerenciamento</h4>
               <p>The orange (specifically, the sweet orange) is the fruit of the citrus Citrus × ​sinensis, species Citrus × ​sinensis in the family Rutaceae.</p>
-          </div>
+            </div>
             <div class="span3">
               <img class="pull-left" src="http://bootswatch.com/img/glyphicons_265_electrical_plug.png">
-			  <h4 class="title-service">Qualidade de Energia</h4>
+              <h4 class="title-service">Qualidade de Energia</h4>
               <p>The peach, Prunus persica, is a deciduous tree, native to China and South Asia, where it was first cultivated.</p>
-          </div>
-          
-          <div class="span3">
-              <img class="pull-left" src="http://bootswatch.com/img/glyphicons_036_file.png">
-			  <h4 class="title-service">Treinamento</h4>
-              <p>The pear is any of several tree and shrub species of genus Pyrus, in the family Rosaceae.</p>
-          </div>
-         
-      </div>
-		
-		</div>
-		<div class="tab-pane" id="tapEmpresa">
-			
-			<div class="span2">
-			    <ul class="nav nav-list">
-    				<li class="nav-header">List header</li>
-    				<li><a href="#history">Histórico</a></li>
-   					<li><a href="#mission">Missão</a></li>
-   					<li><a href="#values">Valores</a></li>
-   					<li><a href="#view">Visão</a></li>
-   					<li><a href="#objectives">Objetivos Empresariais</a></li>
-       			</ul>
-			</div>
-			
-			<div class="container-emp span7">
-			
-				<section id="history">
-				
-					<h5>Histórico</h3>
-					
-					<p>Fundada em 12/06/2001, a Engecrim Engenharia Ltda. é uma empresa genuinamente amazonense e nasceu da idéia de dois engenheiros eletricistas que resolveram se associar para criar uma empresa que preza por uma relação ética e honesta com seus clientes e parceiros.</p>
-     
-				</section>
-				
-				<section id="mission">
-				
-					<h5>Missão</h3>
-					
-					<p>Oferecer serviços de engenharia elétrica confiáveis, seguros e econômicos, em harmonia com o meio ambiente, suportados nos seus recursos humanos e tecnológicos, superando as expectativas dos clientes e contribuindo para o desenvolvimento do Amazonas.</p>
-				</section>
-				
-				<section if="values">
-				
-					<h5>Valores</h5>
-					
-					<ul>
-						<li>Responsabilidade</li>
-						<li>Ética</li>
-						<li>Honestidade</li>
-						<li>Integridade</li>
-					</ul>
-				</section>
-				
-				<section if="view">
-				
-					<h5>Visão</h5>
-					
-					<p>Queremos ser a melhor empresa de engenharia elétrica do Norte do Brasil até o ano de 2005.</p>
-					
-				</section>
-				
-				<section if="objectives">
-				
-					<h5>Objetivos Empresariais</h5>
-					
-					<ul>
-						<li>Um lucro anual de 15% sobre os serviços realizados, após o imposto de renda.</li>
-						<li>Um retorno anual de 20% sobre os investimentos, após o imposto de renda.</li>
-						<li>Obter o Prêmio Qualidade do Amazonas até o ano de 2004.</li>
-					</ul>
-					
-				</section>
-				
-			</div>
-					
-		</div>
-	</div>
-     
- 	</div>
-  	</div>
+            </div>
 
-      			
-    </div> <!-- /container -->
+            <div class="span3">
+              <img class="pull-left" src="http://bootswatch.com/img/glyphicons_036_file.png">
+              <h4 class="title-service">Treinamento</h4>
+              <p>The pear is any of several tree and shrub species of genus Pyrus, in the family Rosaceae.</p>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="tab-pane" id="tapEmpresa">
+
+         <div class="span2">
+           <ul class="nav nav-list">
+            <li class="nav-header">List header</li>
+            <li><a href="#history">Histórico</a></li>
+            <li><a href="#mission">Missão</a></li>
+            <li><a href="#values">Valores</a></li>
+            <li><a href="#view">Visão</a></li>
+            <li><a href="#objectives">Objetivos Empresariais</a></li>
+          </ul>
+        </div>
+
+        <div class="container-emp span7">
+
+          <section id="history">
+
+           <h5>Histórico</h3>
+
+             <p>Fundada em 12/06/2001, a Engecrim Engenharia Ltda. é uma empresa genuinamente amazonense e nasceu da idéia de dois engenheiros eletricistas que resolveram se associar para criar uma empresa que preza por uma relação ética e honesta com seus clientes e parceiros.</p>
+
+           </section>
+
+           <section id="mission">
+
+             <h5>Missão</h3>
+
+               <p>Oferecer serviços de engenharia elétrica confiáveis, seguros e econômicos, em harmonia com o meio ambiente, suportados nos seus recursos humanos e tecnológicos, superando as expectativas dos clientes e contribuindo para o desenvolvimento do Amazonas.</p>
+             </section>
+
+             <section if="values">
+
+               <h5>Valores</h5>
+
+               <ul>
+                <li>Responsabilidade</li>
+                <li>Ética</li>
+                <li>Honestidade</li>
+                <li>Integridade</li>
+              </ul>
+            </section>
+
+            <section if="view">
+
+             <h5>Visão</h5>
+
+             <p>Queremos ser a melhor empresa de engenharia elétrica do Norte do Brasil até o ano de 2005.</p>
+
+           </section>
+
+           <section if="objectives">
+
+             <h5>Objetivos Empresariais</h5>
+
+             <ul>
+              <li>Um lucro anual de 15% sobre os serviços realizados, após o imposto de renda.</li>
+              <li>Um retorno anual de 20% sobre os investimentos, após o imposto de renda.</li>
+              <li>Obter o Prêmio Qualidade do Amazonas até o ano de 2004.</li>
+            </ul>
+
+          </section>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+</div> <!-- /container -->
 
     <!-- Le javascript
     ================================================== -->
@@ -190,4 +194,4 @@
     
 
   </body>
-</html>
+  </html>
