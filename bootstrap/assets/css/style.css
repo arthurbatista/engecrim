@@ -2,7 +2,7 @@
 
 .main-container
 {
-	max-width: 940px;
+	max-width: 970px;
 	margin: 0 auto;
 	#background: url("http://teamexcellence.com/img/bg.jpg") repeat scroll 0 0 transparent;
 }
@@ -69,3 +69,9 @@ h3 > .active > a, h3 > .active > a:hover {
 	padding-bottom: 20px;
 }
 
+#imgPC {
+	background-image: url(http://netdna.webdesignerdepot.com/uploads/reflection_icons/preview.jpg);
+	background-position: -10px 130px;
+	width: 40px;
+	height: 40px;
+}
