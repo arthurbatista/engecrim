@@ -69,9 +69,22 @@ h3 > .active > a, h3 > .active > a:hover {
 	padding-bottom: 20px;
 }
 
+.span-serv {
+	width: 220px;
+	line-height: 1.333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.span-serv > p > a {
+	clear: both;
+    display: block;
+    margin-top: 15px;
+}
+
 #imgPC {
-	background-image: url(http://netdna.webdesignerdepot.com/uploads/reflection_icons/preview.jpg);
-	background-position: -10px 130px;
+	background-image: url(http://t2.ftcdn.net/jpg/00/31/32/83/400_F_31328320_u1EsvEsyosxbJEb34M2GqOUvnCtE8uJt.jpg);
+	background-position: 50px 60px;
 	width: 40px;
-	height: 40px;
+	height: 30px;
 }
