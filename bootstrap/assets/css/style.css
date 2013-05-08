@@ -1,6 +1,11 @@
 @import url(bootstrap.css);
 
-.main-container
+
+body {
+    background: none repeat scroll 0 0 #FAFAFA;
+}
+
+.header-container
 {
 	max-width: 970px;
 	margin: 0 auto;
@@ -62,6 +67,8 @@ h3 > .active > a, h3 > .active > a:hover {
 .content-container
 {
 	margin-top: 60px;
+	max-width: 970px;
+	margin: 0 auto;
 }
 
 .container-emp > section
